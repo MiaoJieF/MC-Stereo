@@ -92,6 +92,9 @@ If you find our work useful in your research, please consider citing our paper:
 }
 ```
 
+## Contact 
+Please feel free to contact me (Miaojie) at fmj@hust.edc.cn.
+
 ## Acknowledgements
 
 This project is heavily based on [RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo), We thank the original authors for their excellent work.
