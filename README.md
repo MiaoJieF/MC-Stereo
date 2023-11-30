@@ -11,13 +11,13 @@ Miaojie Feng, Junda Cheng, Hao jia, Longliang Liu, Gangwei Xu, Xin Yang<br/>
 
 ## Comparision
 
-| Method          | KITTI-2012<br>(2-noc) | KITTI-2012<br>(2-noc-ref) | KITTI-2015<br>(D1-all) |
-| --------------- |:---------------------:|:-------------------------:|:----------------------:|
-| ACVNet          | 1.83                  | 11.42                     | 1.65                   |
-| RAFT-Stereo     | -                     | -                         | 1.91                   |
-| IGEV-Stereo     | 1.71                  | 7.29                      | 1.59                   |
-| CREStereo       | 1.72                  | 9.71                      | 1.69                   |
-| MC-Stereo(Ours) | 1.55                  | 6.82                      | 1.55                   |
+| Method | KITTI-2012<br>(2-noc) | KITTI-2012<br>(2-noc-ref) | KITTI-2015<br>(D1-all) |
+|:---------------------------------- |:---------------------:|:-------------------------:|:----------------------:|
+| ACVNet                             | 1.83                  | 11.42                     | 1.65                   |
+| RAFT-Stereo                        | -                     | -                         | 1.91                   |
+| IGEV-Stereo                        | 1.71                  | 7.29                      | 1.59                   |
+| CREStereo                          | 1.72                  | 9.71                      | 1.69                   |
+| MC-Stereo(Ours)                    | 1.55                  | 6.82                      | 1.55                   |
 
 ## Requirements
 
@@ -43,6 +43,7 @@ To evaluate/train MC-Stereo, you will need to download the required datasets.
 * [InStereo2K](https://github.com/YuhuaXu/StereoDataset)
 
 ## Evaluation
+Pretrained models can be downloaded from [google drive](https://drive.google.com/drive/folders/1WJiZxZtDnrsN1jIvbASCaLzUwbmf_0NT?usp=drive_link).
 
 To evaluate on Scene Flow, run
 

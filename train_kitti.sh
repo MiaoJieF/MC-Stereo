@@ -1,0 +1,11 @@
+python train_stereo.py --train_datasets kitti \
+                       --batch_size 6 \
+                       --image_size 288 960 \
+                       --train_iters 22 \
+                       --restore_ckpt checkpoints/sceneflow/mc-stereo_sceneflow.pth \
+                       --valid_iters 32 \
+                       --spatial_scale -0.2 0.4 \
+                       --saturation_range 0 1.4 \
+                       --n_downsample 2 \
+                       --num_steps 30000 \
+                       --mixed_precision
