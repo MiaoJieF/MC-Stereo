@@ -9,7 +9,18 @@ Miaojie Feng, Junda Cheng, Hao jia, Longliang Liu, Gangwei Xu, Xin Yang<br/>
 
 [//]: # (<img src="./images/vis_kitti.png">)
 
+## Comparision
+
+| Method          | KITTI-2012<br>(2-noc) | KITTI-2012<br>(2-noc-ref) | KITTI-2015<br>(D1-all) |
+| --------------- |:---------------------:|:-------------------------:|:----------------------:|
+| ACVNet          | 1.83                  | 11.42                     | 1.65                   |
+| RAFT-Stereo     | -                     | -                         | 1.91                   |
+| IGEV-Stereo     | 1.71                  | 7.29                      | 1.59                   |
+| CREStereo       | 1.72                  | 9.71                      | 1.69                   |
+| MC-Stereo(Ours) | 1.55                  | 6.82                      | 1.55                   |
+
 ## Requirements
+
 ```
 conda create -n MC_Stereo python=3.7
 conda activate MC_Stereo
@@ -22,7 +33,9 @@ pip install timm==0.5.4
 ```
 
 ## Required Data
+
 To evaluate/train MC-Stereo, you will need to download the required datasets.
+
 * [Scene Flow](https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html)
 * [KITTI](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo)
 * [ETH3D](https://www.eth3d.net/datasets#low-res-two-view-test-data)
@@ -30,32 +43,43 @@ To evaluate/train MC-Stereo, you will need to download the required datasets.
 * [InStereo2K](https://github.com/YuhuaXu/StereoDataset)
 
 ## Evaluation
+
 To evaluate on Scene Flow, run
+
 ```Shell
 sh evaluate.sh
 ```
 
 ## Training
+
 To train on Scene Flow, run
+
 ```Shell
 sh train_sceneflow.sh
 ```
+
 To train on KITTI, run
+
 ```Shell
 sh train_kitti.sh
 ```
+
 To train on ETH3D, run
+
 ```Shell
 sh train_eth3d.sh
 ```
 
 ## Submission
+
 For submission to the KITTI benchmark, run
+
 ```Shell
 python save_disp.py
 ```
 
 ## Citation
+
 If you find our work useful in your research, please consider citing our paper:
 
 ```bibtex
@@ -70,4 +94,3 @@ If you find our work useful in your research, please consider citing our paper:
 ## Acknowledgements
 
 This project is heavily based on [RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo), We thank the original authors for their excellent work.
-
