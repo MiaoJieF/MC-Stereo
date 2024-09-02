@@ -7,7 +7,7 @@ Miaojie Feng, Junda Cheng, Hao jia, Longliang Liu, Gangwei Xu, Xin Yang<br/>
 
 <img src="./images/MC-Stereo.png">
 
-![vis_kitti](D:\Py_project\Github\MC-Stereo\images\vis_kitti.png)
+<img src="./images/vis_kitti.png">
 
 ## Comparision
 
